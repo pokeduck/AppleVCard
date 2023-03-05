@@ -496,9 +496,9 @@ extension CNContact {
 }
 
 extension String {
+    static let willSlashN: String = UUID().uuidString
+    static let willSlashR: String = UUID().uuidString
     func cn() -> String {
-        let willSlashN: String = UUID().uuidString
-        let willSlashR: String = UUID().uuidString
         var tempStr = replacingOccurrences(of: "\\r", with: willSlashR)
         tempStr = tempStr.replacingOccurrences(of: "\\n", with: willSlashN)
         tempStr = tempStr.replacingOccurrences(of: "\r", with: "\\r")
