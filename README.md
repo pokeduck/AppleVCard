@@ -1,2 +1,8 @@
+
 # AppleVCard
-* 補足 `CNContactSerialization` 轉出 `CNContact` 時所缺少的`Vcf` 標籤
+
+### Summary
+* Complements the `CNContactSerialization` by adding missing `Vcf` tags when exporting `CNContact`.
+
+### Specification
+* Reference specifications are based on [RFC 2425](https://datatracker.ietf.org/doc/html/rfc2425) and [RFC 2426](https://datatracker.ietf.org/doc/html/rfc2426) for vCard 3.0.
